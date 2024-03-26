@@ -1,0 +1,97 @@
+/* contact form start*/
+/* Container styling */
+.info-content {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styling */
+.info-heading {
+  color: #333;
+}
+
+/* Text styling */
+.info-text {
+  color: #555;
+}
+
+/* Subheading styling */
+.info-subheading {
+  color: #007bff;
+  margin-top: 20px;
+}
+
+/* List styling */
+.info-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.info-list li {
+  margin-bottom: 10px;
+}
+
+/* Optional: Add responsiveness for smaller screens */
+@media (max-width: 768px) {
+  .col-12 {
+    width: 100%;
+  }
+}
+
+
+.form-container {
+  background-color: silver;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styling */
+.form-heading {
+  color: #333;
+}
+
+/* Form input styling */
+.form-group {
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+
+/* Button styling */
+.submit-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+/* Optional: Add responsiveness for smaller screens */
+@media (max-width: 768px) {
+  .col-12 {
+    width: 100%;
+  }
+}
+
+
+/*contact form End*/
